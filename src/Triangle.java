@@ -1,4 +1,4 @@
-public class Triangle {
+class Triangle {
     double area;
     int height;
     int length;
@@ -20,10 +20,11 @@ public class Triangle {
         ta[2].area = 343;
         System.out.print("y = "+ y);
         System.out.println(", t5 area = "+ t5.area);
-
     }
 
     void setArea(){
         area = (height * length) / 2;
     }
+
+
 }
